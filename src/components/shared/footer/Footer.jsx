@@ -18,11 +18,11 @@ const Footer = () => {
                         <div className="">
                             <img
                                 src={logo}
-                                alt="diginite it"
+                                alt="iitab logo"
                                 className="h-12 w-auto"
                             ></img>
                             <p className=" text-xs text-white/70 pt-6 ps-1">
-                                © 2024 Diginite It. All Rights Reserved.
+                                © 2024 IITAB. All Rights Reserved.
                             </p>
                         </div>
                         <div className="pt-3">
@@ -81,8 +81,7 @@ const Footer = () => {
                             <h4 className="text-xl pb-6">Contact Info</h4>
                             <div className="text-sm opacity-70 space-y-2">
                                 <p className="flex items-center gap-3">
-                                    <FaEnvelope />{" "}
-                                    <span>info@diginieit.com</span>
+                                    <FaEnvelope /> <span>info@iitab.com</span>
                                 </p>
                                 <p className="flex items-center gap-3">
                                     <FaPhoneAlt /> <span>+880 1970 706676</span>
