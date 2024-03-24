@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 const Container = ({ children }) => {
     return (
-        <section className="container mx-auto xl:px-16 px-6">
+        <section className="container mx-auto lg:px-16 px-4">
             {children}
         </section>
     );

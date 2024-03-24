@@ -6,7 +6,7 @@ import { IoIosArrowForward } from "react-icons/io";
 const Navbar = () => {
     return (
         <Container>
-            <div className="flex justify-between items-center  py-4 ">
+            <div className="flex justify-between items-center  py-5 ">
                 <div className="">
                     <img className="h-12" src={logo} alt="IITAB logo" />
                 </div>
