@@ -1,6 +1,7 @@
 import Container from "../container/Container";
 import logo from "../../../assets/IITAB-02.png";
 import { Link } from "react-router-dom";
+import { IoIosArrowForward } from "react-icons/io";
 
 const Navbar = () => {
     return (
@@ -32,11 +33,16 @@ const Navbar = () => {
                                     About Us
                                 </Link>
                             </li>
+                            <li>
+                                <Link to={"/about"} className="px-5">
+                                    About Us
+                                </Link>
+                            </li>
                         </ul>
                     </nav>
                     <Link to={"/contact"} className="">
-                        <button className=" px-8 py-2.5 bg-gradient-to-tl from-[#F05F03] to-primary text-black font-semibold rounded-full">
-                            Contact Us
+                        <button className=" px-6 py-2.5 border-2 border-white font-medium rounded-xl flex items-center justify-between gap-3">
+                            Start a project <IoIosArrowForward />
                         </button>
                     </Link>
                 </div>
